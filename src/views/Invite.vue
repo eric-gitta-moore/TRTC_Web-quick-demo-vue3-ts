@@ -14,10 +14,10 @@
           Exit
         </el-button>
       </div>
-      <div id='local' style='max-width: 640px;margin-top: 20px'></div>
+      <div id='local' style='margin-top: 20px'></div>
       <div class='remote-container'>
         <template v-for='userId in store.invitedRemoteUsers' :key='userId'>
-          <div :id='userId' style='max-width: 640px;margin-top: 20px'></div>
+          <div :id='userId' style='margin-top: 20px'></div>
         </template>
       </div>
     </el-col>
